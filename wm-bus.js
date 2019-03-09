@@ -13,7 +13,7 @@ var WMB = require('wm-bus'),
 var com = null;
 
 var adapter = utils.Adapter({
-    name: 'wm-bus',
+    name: 'wm-bus-community',
 
     unload: function (callback) {
         soef.safeFunction(adapter, 'log.info') ("going down...");
