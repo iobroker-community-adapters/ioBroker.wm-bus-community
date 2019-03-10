@@ -21,6 +21,9 @@ Supported USB Adapters:
 + [iM871A](http://www.wireless-solutions.de/products/gateways/wirelessadapter)
 + [CUL](http://shop.busware.de/product_info.php/products_id/29?osCsid=eab2ce6ef5efc95dbdf61396ca256b6e)
 
+### Initial Creation
+This adapter was initialy created by @soef at https://github.com/soef/ioBroker.wm-bus but not maintained any more, so we moved it to iobroker-community so that bugs could be fixed. thanks @soef for his work.
+
 #### Configuration
 
 If used, an AES key to decrypt the message.
