@@ -1,7 +1,7 @@
 ![Logo](admin/wm-bus.png)
 ### ioBroker.wm-bus			   
 
-[![NPM version](http://img.shields.io/npm/v/iobroker.wm-bus.svg)](https://www.npmjs.com/package/iobroker.wm-bus)
+![Number of Installations](http://iobroker.live/badges/wm-bus-community-installed.svg) ![Number of Installations](http://iobroker.live/badges/wm-bus-community-stable.svg) [![NPM version](http://img.shields.io/npm/v/iobroker.wm-bus.svg)](https://www.npmjs.com/package/iobroker.wm-bus)
 [![Tests](http://img.shields.io/travis/soef/ioBroker.wm-bus/master.svg)](https://travis-ci.org/soef/ioBroker.wm-bus)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/soef/iobroker.wm-bus/blob/master/LICENSE)
 
