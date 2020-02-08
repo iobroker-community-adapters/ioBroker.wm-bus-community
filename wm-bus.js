@@ -35,6 +35,15 @@ var adapter = utils.Adapter({
     }
 });
 
+function StringToHex(str){
+	var arr1 = [];
+	for (var n = 0, l = str.length; n < l; n ++){
+		var hex = Number(str.charCodeAt(n)).toString(16);
+		hex = (hex.length == 1) ? hex = '0' + hex : hex;
+		arr1.push(hex);
+	}
+	return arr1.join('').toUpperCase();
+}
 
 function onMessage (obj) {
     if (!obj || !obj.command || !obj.callback) {
@@ -183,6 +192,8 @@ var Com = function (options, callback) {
                         adapter.log.error("inCnt > 1 " + inCnt + 1);
                     }
                     that.wmbus.parse(dataStr.substr(3));
+					devices.root.set('raw', StringToHex(dataStr.substr(3)));
+					devices.root.update();
                     inCnt--;
                 }
                 break;
@@ -316,6 +327,8 @@ CulCom.prototype.onData = function (data) {
         //     binString += String.fromCharCode(parseInt(v, 16));
         // });
         this.wmbus.parse(binString);
+		devices.root.set('raw', StringToHex(binString));
+		devices.root.update();
         adapter.log.debug('raw: ' + data);
     } else {
         if (data === 'TMODE') {
