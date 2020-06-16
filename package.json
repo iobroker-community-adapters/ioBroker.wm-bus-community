@@ -1,7 +1,7 @@
 {
   "name": "iobroker.wm-bus-community",
   "version": "1.0.1",
-  "description": "Wireless M-Bus Adapter 2",
+  "description": "Wireless M-Bus Adapter",
   "author": {
     "name": "soef",
     "email": "soef@gmx.net"
