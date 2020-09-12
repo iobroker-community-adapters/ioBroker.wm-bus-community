@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "serialport": "^7.1.5",
-    "soef": "^0.1.44",
+    "soef": "^0.4.15",
     "wm-bus": "^0.1.16",
     "@iobroker/adapter-core": "^1.0.3"
   },
