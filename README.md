@@ -1,3 +1,5 @@
+# Deprecated: This adapter was replaced by https://github.com/lvogt/ioBroker.wireless-mbus
+
 ![Logo](admin/wm-bus.png)
 ### ioBroker.wm-bus			   
 
